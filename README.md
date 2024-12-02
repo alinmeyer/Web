@@ -50,7 +50,7 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 	 npm start
 
 ### 🌐 Publicação
-O projeto será hospedado em um servidor para garantir sua disponibilidade na web. Detalhes sobre a URL de acesso serão fornecidos em breve.
+O projeto será hospedado em um servidor para garantir sua disponibilidade na web e pode ser acessado pela URL http://34.172.77.82/.
 
 ### 👩‍💻 Desenvolvedores
 Aline C. Meyer,
