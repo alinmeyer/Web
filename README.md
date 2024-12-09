@@ -53,9 +53,9 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 O projeto será hospedado em um servidor para garantir sua disponibilidade na web e pode ser acessado pela URL http://34.172.77.82/.
 
 ### 👩‍💻 Desenvolvedores
-Aline C. Meyer,
-Dante D. Santos,
-Gabriel Wesz M.	
+Aline Cristina Meyer (21100496)
+Gabriel Wesz Machado Oliveira (22100900)
+Dante Dardaque Santos (24150006)
 
 ### 📄 Licença
 Este projeto é fechado e não aceita contribuições externas. Todos os direitos reservados.
