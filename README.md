@@ -10,6 +10,7 @@
 - **Metas de Leitura Anuais**: Defina e acompanhe metas de leitura para o ano, monitorando seu progresso de forma simples e prática.
 - **Interação com a Comunidade**: Siga outros usuários e descubra novas amizades literárias.
 - **Marcação de Favoritos e Listas de Desejos**: Marque seus livros favoritos e crie listas de desejos para futuras leituras.
+- **Descubra novos livros e autores**
 
 ## 🛠️ Tecnologias Utilizadas
 
