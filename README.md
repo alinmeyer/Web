@@ -13,7 +13,7 @@
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Front-end**: HTML, CSS, JavaScript, React
+- **Front-end**: HTML, CSS (TailwindCSS), JavaScript, React
 - **Back-end**: Node.js, Express
 - **Banco de Dados**: MongoDB
 
