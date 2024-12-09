@@ -32,22 +32,22 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/literar.git
+   git clone https://github.com/alinmeyer/Web.git
 
 2. Navegue até o diretório do projeto:
    ```bash
-	 cd literar
+	 cd Web
 3. Instale as dependências do back-end:
    ```bash
 	 npm install
 4. Inicie o servidor:
    ```bash
-	 npm start
+	 node index.js
 5. Para o front-end, navegue até o diretório do cliente e instale as dependências:
    ```bash
 	 cd client
 	 npm install
-	 npm start
+	 npm run dev
 
 ### 🌐 Publicação
 O projeto será hospedado em um servidor para garantir sua disponibilidade na web e pode ser acessado pela URL http://34.172.77.82/.
