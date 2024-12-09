@@ -20,10 +20,11 @@ function App() {
       <div>
         <Routes>
 
-          <Route path="/books" element={<Books />} />
 
           <Route path="/" element={ user ? <Home /> :  <Register /> } />
           <Route path="/profile/:username" element={<PagePerfil />} />
+         
+          <Route path="/books" element={<Books />} />
 
           <Route path="/register" element={user ? <Navigate to={"/"}/> : <Register />} />
           <Route path="/login" element={ user ? <Navigate to={"/"}/> : <Login />} />
