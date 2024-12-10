@@ -1,5 +1,5 @@
-import userModel  from "../models/userModel.js";
-import bcrypt from "bcrypt"
+import userModel from "../models/userModel.js";
+import bcrypt from "bcrypt";
 
 // register
 export const registerUser = async (body) => {
@@ -8,18 +8,26 @@ export const registerUser = async (body) => {
         username: body.username,
         email: body.email,
         password: hashedPassword,
-        profilePicture: "https://via.placeholder.com/150"
-    })
+        profilePicture: "https://via.placeholder.com/150",
+    });
     await newUser.save();
     return newUser;
 };
 
 export const loginUser = async (body) => {
-    const user = await userModel.findOne({email: body.email});
-    !user && res.status(404).json("User not found");
+    // Verifica se o usuário existe
+    const user = await userModel.findOne({ email: body.email });
+    if (!user) {
+        throw new Error("User not found");
+    }
 
+    // Verifica a senha
     const passwordCheck = await bcrypt.compare(body.password, user.password);
-    !passwordCheck && res.status(400).json("Wrong Password!");
+    if (!passwordCheck) {
+        throw new Error("Wrong Password!");
+    }
 
+    // Retorna o usuário
     return user;
 };
+
